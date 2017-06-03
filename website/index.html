@@ -1,116 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Guangzhou Whole-sale Trading Co.,LTD</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cerulean-theme-bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
     <link rel="icon" href="images/logo.jpg">
+
 </head>
 
 <body>
     <div id="page">
         <header class="container">
-            <div id="menu">
-                <h4>Guangzhou Whole-sale Trading Co.,LTD</h4>
-                <ul>
-                    <li>About us</li>
-                    <li>Our products</li>
-                    <li>Contact us</li>
-                </ul>
-            </div>
+            <nav id="menu" class="navbar navbar-default navbar-fixed-top navbar-toggleable-md row">
+                <button class="btn btn-primary btn-sm navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+
+                <a class="navbar-brand" href="#" id="logo">Guangzhou Whole-sale Trading Co.,LTD</a>
+                <div class="navbar-collapse collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav navbar-right" style="padding-right: 25px">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#page2">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#doorClipB">Door Clip</a>
+                                <a class="dropdown-item" href="#floorSpring">Floor Spring</a>
+                                <a class="dropdown-item" href="#pull">Pull</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
         </header>
 
-        <section id="Page1" class="container">
-            <img src="images/main.jpg" alt="company logo" />
-            <div id="compMotto">
-                <p>We dedicate to provide you with the best possible service.</p>
-            </div>
+        
+            <section id="page1" class="container">
+                <div class="hidden-sm-down">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <img src="images/main.jpg" alt="compLogo" id="mainPageImg">
+                        <div class="carousel-caption" id="mainPageLogo">
+                            <h2>We strive to provide you with the best experience</h2><br>
+                            <a class="btn btn-primary btn-lg" href="#page2">Learn about us<a>
+                        </div>
+                    </div>
+                </div>
+                </div>
         </section>
+        
 
-        <section id="Page2" class="container">
-            <h4>About us</h4>
-            <p id="overview">Guangzhou Whole-Sale hardware Company is a trading company which mainly deal with hardware export. And also we
-                had signed long-term cooperate contracts with many hardware manufactories. That's ensured the goods supplied
-                with high quality at the most favorable prices.
-            </p>
+        <section id="page2" class="container">
+            <div class="carousel slide" id="compIntroCarousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#compIntroCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#compIntroCarousel" data-slide-to="1"></li>
+                    <li data-target="#compIntroCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active"><img src="images/overview.jpg" alt="overviewPic" class="compIntroImg">
+                        <div class="carousel-caption">
+                            <h4>What we are</h4>
+                            <p>Guangzhou Whole-Sale hardware Company is a trading company which mainly deal with hardware export. And also we
+                    had signed long-term cooperate contracts with many hardware manufactories. That's ensured the goods supplied
+                    with high quality at the most favorable prices</p>
+                        </div>
+                    </div>
 
-            <p id="team">
-                Guangzhou Whole-sale Hardware Company has the research team for its own, which always hammer at finding and removing goods
+                    <div class="item"><img src="images/teamwork.jpg" alt="teamworkPic" class="compIntroImg">
+                        <div class="carousel-caption">
+                            <h4>Who we are</h4>
+                            <p>Guangzhou Whole-sale Hardware Company has the research team for its own, which always hammer at finding and removing goods
                 defects through the process of use for improving, and then derives more beautiful and durable products suit
                 for the market. All the Staff of Whole-sale Hardware Company believes that quality is the life of the enterprise;
                 service is the key point of obtaining long-term clients. So we attach importance to quality, package, delivery
-                lead time, and rapid technology support as so on.
-            </p>
+                lead time, and rapid technology support as so on.</p>
+                        </div>
+                    </div>
 
-            <p id="principle">
-                We know that it's not a easy to get a client's support and approval in such a competitive commercial surrounding, so we will
-                keep improving ourselves, we will enhance our professional skills and also will pay more and more attention
-                on products quality controlling. We will try our best to reduce the cost on the base of good quality to get
-                the maximal profit for clients. Guangzhou Whole-sale Hardware Company always regards COOPERATION as the emphasis.
+                    <div class="item"><img src="images/principle.jpeg" alt="principlePic" class="compIntroImg">
+                        <div class="carousel-caption">
+                            <h4>What we believe in</h4>
+                            <p>Guangzhou Whole-sale Hardware Company always regards COOPERATION as the emphasis.
                 We know it's very important to be active in cooperation and establish a good communication channel. We know
                 that quality and price is the key to success, and the mean time, we also know that a good service is also
                 very important. We are looking forward to cooperate with you, and hope to create a win-win situation. Hope
                 we can gain more percentage of the hardware market with you together. If you had worked with us together
                 for a certain period, you will find that WHOLE-SALE is your best backbone, we will do our best to offer the
                 assistance and technology support. Our principle is: Quality is not compromisable, service is not concedable!
-                Looking forward to receive your contact information!
-            </p>
-        </section>
-
-        <section class="container">
-            <h4>Our products</h4>
-            <ul id="productMenu">
-                <li><a href="#doorClipB">门夹</a>
-                    <ul>
-                        <li><a href="#doorClipB">B系列门夹</a></li>
-                        <li><a href="#doorClipC">C系列门夹</a></li>
-                        <li><a href="#doorClipD">D系列门夹</a></li>
-                    </ul>
-                </li>
-                <li><a href="#doorSpring">地弹簧</a></li>
-                <li><a href="#pull">拉手</a></li>
-
-            </ul>
-            <div id="products">
-                <div id="doorClipB">
-                    <img src="images/randomPic-1.jpg" alt="1">
-                    <img src="images/randomPic-2.jpg" alt="2">
-                    <img src="images/randomPic-3.jpg" alt="3">
-                    <img src="images/randomPic-4.jpg" alt="4">
+                Looking forward to receive your contact information!</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="doorClipC">
-                    <img src="images/randomPic-1.jpg" alt="1">
-                    <img src="images/randomPic-2.jpg" alt="2">
-                    <img src="images/randomPic-3.jpg" alt="3">
-                    <img src="images/randomPic-4.jpg" alt="4">
-                </div>
+                <a href="#compIntroCarousel" class="carousel-control left" data-slide="prev"><span class="icon-prev"></span></a>
 
-                <div id="doorClipD">
-                    <img src="images/randomPic-1.jpg" alt="1">
-                    <img src="images/randomPic-2.jpg" alt="2">
-                    <img src="images/randomPic-3.jpg" alt="3">
-                    <img src="images/randomPic-4.jpg" alt="4">
-                </div>
-
-                <div id="floorSpring">
-                    <img src="images/randomPic-5.jpg" alt="5">
-                    <img src="images/randomPic-6.jpg" alt="6">
-                </div>
-
-                <div id="pull">
-                    <img src="images/randomPic-6.jpg" alt="6">
-                    <img src="images/randomPic-7.jpg" alt="7">
-                </div>
+                <a href="#compIntroCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
             </div>
         </section>
 
-        <section class="container">
+        <section id="page3" class="container">
+            <h4>Our products</h4>
+            <ul id="productMenu">
+                <li><a href="#doorClipB">门夹</a>
+                            <ul>
+                                <li><a href="#doorClipB">B系列门夹</a></li>
+                                <li><a href="#doorClipC">C系列门夹</a></li>
+                                <li><a href="#doorClipD">D系列门夹</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#floorSpring">地弹簧</a></li>
+                            <li><a href="#pull">拉手</a></li>
 
-        </section>
+                            </ul>
+                            <div id="products">
+                                <div id="doorClipB">
+                                    <img src="images/randomPic-1.jpg" alt="1">
+                                    <img src="images/randomPic-2.jpg" alt="2">
+                                    <img src="images/randomPic-3.jpg" alt="3">
+                                    <img src="images/randomPic-4.jpg" alt="4">
+                                </div>
 
-    </div>
-    <script src="bootstrap.min.js"></script>
+                                <div id="doorClipC">
+                                    <img src="images/randomPic-1.jpg" alt="1">
+                                    <img src="images/randomPic-2.jpg" alt="2">
+                                    <img src="images/randomPic-3.jpg" alt="3">
+                                    <img src="images/randomPic-4.jpg" alt="4">
+                                </div>
+
+                                <div id="doorClipD">
+                                    <img src="images/randomPic-1.jpg" alt="1">
+                                    <img src="images/randomPic-2.jpg" alt="2">
+                                    <img src="images/randomPic-3.jpg" alt="3">
+                                    <img src="images/randomPic-4.jpg" alt="4">
+                                </div>
+
+                                <div id="floorSpring">
+                                    <img src="images/randomPic-5.jpg" alt="5">
+                                    <img src="images/randomPic-6.jpg" alt="6">
+                                </div>
+
+                                <div id="pull">
+                                    <img src="images/randomPic-6.jpg" alt="6">
+                                    <img src="images/randomPic-7.jpg" alt="7">
+                                </div>
+                            </div>
+            </section>
+
+            <section class="container">
+
+            </section>
+
+            </div>
+
+
+            
+            <script src="js/jquery-2.0.3.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/site.js"></script>            
 </body>
 
 </html>

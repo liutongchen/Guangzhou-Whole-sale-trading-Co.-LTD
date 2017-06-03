@@ -1,0 +1,33 @@
+body {
+    margin-top: 65px;
+}
+
+.nav-item{
+    padding-right: 25px;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#mainPageImg,.compIntroImg {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    width: 100%; 
+    height: 625px
+}
+
+.carousel-caption {
+    top: 50%
+}
+
+#page2 {
+    padding-top: 75px;
+}
+
+
