@@ -30,4 +30,11 @@ body {
     padding-top: 75px;
 }
 
+#productsImg img{
+    width: 250px;
+    height: 220px;
+}
 
+.page-header {
+    font-size: 30px;
+}

@@ -8,13 +8,7 @@
 
      $("#compIntroCarousel").carousel();
 
-     $('.carousel').carousel();
-
-     $('.carousel-control.left').click(function() {
-  $('#myCarousel').carousel('prev');
-});
-
-$('.carousel-control.right').click(function() {
-  $('#myCarousel').carousel('next');
-});
+    $(".modalBtn").on("click", function() {
+        $(this).next(".myModal").modal("show");
+    })     
 })()

@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Guangzhou Whole-sale Trading Co.,LTD</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/cerulean-theme-bootstrap.css">
     <link rel="stylesheet" href="css/site.css">
@@ -22,22 +22,21 @@
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
 
-                <a class="navbar-brand" href="#" id="logo">Guangzhou Whole-sale Trading Co.,LTD</a>
+                <a class="navbar-brand" href="#" id="logo" style="padding-left: 20px">Guangzhou Whole-sale Trading Co.,LTD</a>
                 <div class="navbar-collapse collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav navbar-right" style="padding-right: 25px">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#page2">About Us</a>
+                    <ul class="nav navbar-nav navbar-right" style="padding-right: 25px">
+                        <li class="nav"><a href="#page2">About Us</a></li>
+                        <li class="nav dropdown">
+                            <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                                Our Products<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#doorClipB">Door Clip</a></li>
+                                <li><a href="#floorSpring">Floor Spring</a></li>
+                                <li><a href="#pull">Pull</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#doorClipB">Door Clip</a>
-                                <a class="dropdown-item" href="#floorSpring">Floor Spring</a>
-                                <a class="dropdown-item" href="#pull">Pull</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                        <li class="nav">
+                            <a href="#page4">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -45,22 +44,20 @@
             </nav>
         </header>
 
-        
-            <section id="page1" class="container">
-                <div class="hidden-sm-down">
+        <section id="page1" class="container">
+            <div class="hidden-sm-down">
                 <div class="carousel">
                     <div class="carousel-inner">
                         <img src="images/main.jpg" alt="compLogo" id="mainPageImg">
                         <div class="carousel-caption" id="mainPageLogo">
                             <h2>We strive to provide you with the best experience</h2><br>
                             <a class="btn btn-primary btn-lg" href="#page2">Learn about us<a>
-                        </div>
                     </div>
                 </div>
-                </div>
+            </div>
+            </div>
         </section>
         
-
         <section id="page2" class="container">
             <div class="carousel slide" id="compIntroCarousel" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -106,69 +103,538 @@
 
                 <a href="#compIntroCarousel" class="carousel-control left" data-slide="prev"><span class="icon-prev"></span></a>
 
-                <a href="#compIntroCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
-            </div>
+                            <a href="#compIntroCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
+                        </div>
         </section>
 
         <section id="page3" class="container">
-            <h4>Our products</h4>
-            <ul id="productMenu">
-                <li><a href="#doorClipB">门夹</a>
-                            <ul>
-                                <li><a href="#doorClipB">B系列门夹</a></li>
-                                <li><a href="#doorClipC">C系列门夹</a></li>
-                                <li><a href="#doorClipD">D系列门夹</a></li>
-                            </ul>
+            <h4 class="page-header">Our products</h4>
+
+            <div class="row">
+                <div class="tabs-left">
+                    <div class="col-md-2 col-sm-2">
+                        <ul class="nav nav-tabs nav-stacked">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Door Clip<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#doorClipB">Door Clip B</a></li>
+                                    <li><a href="#doorClipC">Door Clip C</a></li>
+                                    <li><a href="#doorClipD">Door Clip D</a></li>
+                                </ul>
                             </li>
-                            <li><a href="#floorSpring">地弹簧</a></li>
-                            <li><a href="#pull">拉手</a></li>
+                            <li><a href="#floorSpring">Foor Spring</a></li>
+                            <li><a href="#pull">Pull</a></li>
+                        </ul>
+                    </div>
 
-                            </ul>
-                            <div id="products">
-                                <div id="doorClipB">
-                                    <img src="images/randomPic-1.jpg" alt="1">
-                                    <img src="images/randomPic-2.jpg" alt="2">
-                                    <img src="images/randomPic-3.jpg" alt="3">
-                                    <img src="images/randomPic-4.jpg" alt="4">
-                                </div>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="tab-content" id="productsImg">
+                            <div id="doorClipB" class="row">
+                                <h3 class="row"> Door Clip B</h3>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-1.jpg " alt="1">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-1.jpg" alt="image1" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF20</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
 
-                                <div id="doorClipC">
-                                    <img src="images/randomPic-1.jpg" alt="1">
-                                    <img src="images/randomPic-2.jpg" alt="2">
-                                    <img src="images/randomPic-3.jpg" alt="3">
-                                    <img src="images/randomPic-4.jpg" alt="4">
-                                </div>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-2.jpg " alt="2">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-2.jpg" alt="image2" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF21</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
 
-                                <div id="doorClipD">
-                                    <img src="images/randomPic-1.jpg" alt="1">
-                                    <img src="images/randomPic-2.jpg" alt="2">
-                                    <img src="images/randomPic-3.jpg" alt="3">
-                                    <img src="images/randomPic-4.jpg" alt="4">
-                                </div>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-3.jpg " alt="3">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-3.jpg" alt="image3" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF22</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
 
-                                <div id="floorSpring">
-                                    <img src="images/randomPic-5.jpg" alt="5">
-                                    <img src="images/randomPic-6.jpg" alt="6">
-                                </div>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-4.jpg " alt="4">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-4.jpg" alt="image4" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF23</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+                            </div> <!--end of doorclipB thumbnails-->
 
-                                <div id="pull">
-                                    <img src="images/randomPic-6.jpg" alt="6">
-                                    <img src="images/randomPic-7.jpg" alt="7">
-                                </div>
+                            <div id="doorClipC" class="row">
+                                <h3 class="row"> Door Clip C</h3>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-1.jpg " alt="1">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-1.jpg" alt="image1" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF20</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-2.jpg " alt="2">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-2.jpg" alt="image2" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF21</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-3.jpg " alt="3">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-3.jpg" alt="image3" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF22</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-4.jpg " alt="4">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-4.jpg" alt="image4" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF23</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+                            </div> <!--end of doorclipC thumbnails-->
+                             
+                            <div id="doorClipD" class="row">
+                                <h3 class="row"> Door Clip D</h3>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-1.jpg " alt="1">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-1.jpg" alt="image1" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF20</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-2.jpg " alt="2">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-2.jpg" alt="image2" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF21</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-3.jpg " alt="3">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-3.jpg" alt="image3" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF22</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-4.jpg " alt="4">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-4.jpg" alt="image4" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF23</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+                            </div> <!--end of doorclipD thumbnails-->
+
+                            <div id="floorSpring" class="row">
+                                <h3 class="row">Floor Spring</h3>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-5.jpg " alt="5">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-5.jpg" alt="image5" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF30</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-6.jpg " alt="6">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-6.jpg" alt="image6" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF31</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-7.jpg " alt="7">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-7.jpg" alt="image7" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF32</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                               
+                            </div> <!--end of floorSpring thumbnails-->
+
+                            <div id="pull" class="row">
+                                <h3 class="row">Pull</h3>
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-5.jpg " alt="5">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-5.jpg" alt="image5" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF30</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-6.jpg " alt="6">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-6.jpg" alt="image6" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF31</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                                <!--picture thumbnail-->
+                                <div class="thumbnail col-xs-6 col-md-3">
+                                    <img src="images/randomPic-7.jpg " alt="7">
+                                    <!-- Button trigger modal -->
+                                    <div class="modalBtn"><a data-toggle="modal" class="glyphicon glyphicon-info-sign" data-target="#exampleModal"></a></div>
+                                    <!-- Modal -->
+                                    <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Door Clip B</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/randomPic-7.jpg" alt="image7" style="width: 500px; height: 450px">
+                                                    <p>Model: HS07SF32</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end of this thumbnail-->
+
+                               
+                            </div> <!--end of pull thumbnails-->
+                        </div>
+                    </div>
+                    <!--
+
+                            <div id="floorSpring">
+                                <img src="images/randomPic-5.jpg " alt="5 ">
+                                <img src="images/randomPic-6.jpg " alt="6 ">
                             </div>
-            </section>
 
-            <section class="container">
-
-            </section>
-
+                            <div id="pull">
+                                <img src="images/randomPic-6.jpg " alt="6 ">
+                                <img src="images/randomPic-7.jpg " alt="7 ">
+                            </div> 
+                            -->
+                </div>
             </div>
+            <!-- /tabbable -->
+            </div>
+            <!-- /col -->
+            </div>
+            <!-- /row -->
 
 
-            
-            <script src="js/jquery-2.0.3.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/site.js"></script>            
+        </section>
+
+        <section class="container" id="page4">
+            <h4 class="page-header">Contact Us</h4>
+            <p>Person of Contact: Sara</p>
+            <p>Tell: +86 13326517811</p>
+            <p>Address:Qiaonan Block, Industry Distry, Yexing Street No.5, Panyu District, Guangzhou, Guangdong Province</p>
+            <p>Fax: +86-20-84874984</p>
+        </section>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+        <script src="js/site.js "></script>
 </body>
 
 </html>
